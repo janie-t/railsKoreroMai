@@ -1,0 +1,23 @@
+<%= link_to "Home", root_path %>
+
+
+<p id="notice"><%= notice %></p>
+
+<h1>Letters</h1>
+
+<ul>
+
+    <% @letters.each do |letter| %>
+    <li>
+      <tr>
+        <td><%= letter.name %></td>
+        <td><%= letter.sound %></td>
+      </tr>
+    </li>
+    <% end %>
+
+</ul>
+
+
+
+<!-- <%= link_to 'New Letter', new_letter_path %> -->
