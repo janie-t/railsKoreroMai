@@ -10,7 +10,7 @@
     <% @letters.each do |letter| %>
     <li>
       <tr>
-        <td><%= letter.name %></td>
+        <td><a href="<%= letter_path(letter) %>"><%= letter.name %></a></td>
         <td><%= letter.sound %></td>
       </tr>
     </li>
