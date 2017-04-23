@@ -1,4 +1,9 @@
-<div class="container">
+
+<% content_for :head do %>
+<%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+<% end %>
+
+<div class="container text-center home">
 
   <div class="row">
     <div class="col-xs-12">
@@ -9,7 +14,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row play-btn">
     <a href="<%= letters_path %>">
       <button type="button" class="btn btn-default btn-lg" >
         <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Play!

@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+function play(id){
+  var audio = document.getElementById(id);
+  audio.play();
+}

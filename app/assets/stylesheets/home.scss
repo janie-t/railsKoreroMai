@@ -11,8 +11,7 @@
 // @media (min-width: @screen-lg-min) { ... }
 
 
-.container {
-  text-align: center;
+.home {
   background-image: url('/assets/home-transparent.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -20,6 +19,7 @@
   height: 600px;
 }
 
-.row {
-  padding: 1em;
+
+.play-btn {
+  padding-top: 2em;
 }
